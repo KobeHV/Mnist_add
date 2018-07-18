@@ -6,7 +6,7 @@ int main()
 	
 	/*------------生成训练集文件--------------------------*/
 	printf("----------生成训练集文件-------------\n");
-	string trainfilefolder = "D:\mnist\train_images";		//训练图片文件路径
+	string trainfilefolder = "D:\\mnist\\train_images";		//训练图片文件路径
 	vector<string> trainfileLists = IBD.getFileLists(trainfilefolder);				//获得文件名列表
 
 	const int train_size_list = trainfileLists.size();
@@ -22,7 +22,7 @@ int main()
 
 	/*------------生成测试集文件--------------------------*/
 	printf("\n\n----------生成测试集文件-------------\n");
-	string testfilefolder = "D:\mnist\test_images";		//测试图片文件路径
+	string testfilefolder = "D:\\mnist\\test_images";		//测试图片文件路径
 	vector<string> testfileLists = IBD.getFileLists(testfilefolder);			//获得文件名列表
 	
 	const int test_size_list = testfileLists.size();
